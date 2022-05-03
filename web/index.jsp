@@ -36,12 +36,12 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
           <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="index.jsp">Login</a>
           </li>
         
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Nosotros
+            Doctores
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -61,30 +61,14 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
-                  
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Especialidades
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        
+        </li>               
+                       
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.jsp">Cita en Linea</a>
         </li>        
                 
       </ul>
-      <form class="d-flex">               
-        <button type="button" class="btn btn-primary">Iniciar Sesión</button>
-        <button type="button" class="btn btn-outline-primary ">Iniciar Sesión</button>
-      </form>
+      
     </div>
   </div>
 </nav>
@@ -92,6 +76,13 @@
         <%-- 
     Carrusel de imagenes
         --%>
+        
+        <style>
+.carousel-inner{
+ max-height: 29rem;
+}
+</style>
+        
         
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -118,7 +109,77 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+       
         
+        
+        
+        <%-- 
+    Barra de Menu
+        --%>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <span class="text-primary fs-5 fw-bold">Consulta</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.jsp">¿Quienes Somos?</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Referencia de Doctores
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Reagendar
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>      
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+      
+        <div class="container">
+  <div class="row">
+    <div class="col">
+      HappyDent Su Clínica Dental de Confianza
+
+       Más de 20 años y miles de sonrisas alrededor del Perú nos respaldan como la primera y mejor Clínica Dental del pais. ¡Compruébalo tu mismo!
+      <form class="d-flex">               
+        <button type="button" class="btn btn-primary">Nueva Cita</button>
+      </form>
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>
         
     </body>
 </html>
